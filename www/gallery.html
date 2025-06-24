@@ -1,0 +1,95 @@
+<!--
+  The HTML page where i describe my projects.
+
+  Author: Gabriele Ranzari 0001123397
+  Date: 23 June 2025
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link fw-bold ms-5" href="/admin">Admin</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="mb-4">Project Showcase</h1>
+    <div class="row g-3">
+      <div class="col-sm-6 col-lg-4">
+        <div class="card">
+          <img src="images/project-1.png" class="card-img-top" alt="Frog Hopper Game">
+          <div class="card-body">
+            <h5 class="card-title">Frog Hopper</h5>
+            <p class="card-text">
+              My first indie project: a 2D platformer built in Godot following a tutorial series.
+              Learned core concepts like physics, animation, and scene management.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card">
+          <img src="images/project-2.png" class="card-img-top" alt="Burgeria Clone">
+          <div class="card-body">
+            <h5 class="card-title">Burgeria Clone</h5>
+            <p class="card-text">
+              A collaborative OOP course project: a Java remake of the classic “Papa’s Burgeria” flash game.
+              Handled game logic, UI, and order processing with a team of four.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card">
+          <img src="images/project-3.png" class="card-img-top" alt="Portfolio Website">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">
+              Developed for my Networks course: a static Bootstrap site served by a custom Python socket server.
+              Demonstrates HTTP handling, MIME types, and basic authentication.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-center text-white py-4 mt-auto">
+    <div class="container">
+      <p class="mb-1">Project by <strong>Gabriele Ranzari</strong></p>
+      <p class="mb-1">Email: <a href="mailto:gabriele.ranzari@studio.unibo.it"
+          class="text-warning">gabriele.ranzari@studio.unibo.it</a></p>
+      <p class="mb-0">&copy; 2025</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

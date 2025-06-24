@@ -1,0 +1,168 @@
+/*
+  Custom stylesheet for the web portfolio project.
+
+  Author: Gabriele Ranzari 0001123397
+  Date: 23 June 2025
+*/
+
+/* Main Color Settings */
+:root {
+  --bg-color: #1a1a1a;
+  --card-bg: #222222;
+  --text-color: #d4af37;
+  --link-color: #d4af37;
+  --link-hover: #ffd700;
+}
+
+/* Sticky Footer Base */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 56px;
+  /* space for navbar */
+}
+
+main {
+  flex: 1;
+}
+
+/* Navbar */
+.navbar,
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--text-color) !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--link-hover) !important;
+}
+
+/* Headings and General Text */
+h1,
+h3,
+p,
+.card-title,
+.card-text,
+label,
+.form-label {
+  color: var(--text-color) !important;
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* Bootstrap Cards */
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--text-color);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--text-color);
+  border-color: var(--text-color);
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: var(--link-hover);
+  border-color: var(--link-hover);
+  color: #000;
+}
+
+/* Form Inputs and Textareas */
+.form-control {
+  background-color: #2b2b2b;
+  color: var(--text-color);
+  border: 1px solid #444;
+}
+
+.form-control:focus {
+  background-color: #2b2b2b;
+  color: var(--text-color);
+  border-color: var(--text-color);
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: #888;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #222222;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: var(--text-color);
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: var(--text-color);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Error Pages */
+.error-page main {
+  text-align: center;
+  padding: 3em;
+  background-color: #222;
+  color: gold;
+}
+
+.error-page button,
+.error-page .back a {
+  background-color: gold;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #222;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 2em;
+}
+
+.error-page button:hover,
+.error-page .back a:hover {
+  background-color: #ffda6a;
+}
+
+/* Spacing Helpers */
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
