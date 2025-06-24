@@ -1,3 +1,5 @@
+# WebServer-SitoWebStatico
+
 Titolo: "Realizzazione di un Web Server minimale in Python e pubblicazione di un sito statico"
 
 Obiettivo: Progettare un semplice server HTTP in Python (usando socket) e servire un sito web statico con HTML/CSS.
